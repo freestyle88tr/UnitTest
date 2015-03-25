@@ -19,7 +19,7 @@ namespace Calculator_UnitTest
         public void subtract_test()
         {
             var test_object = new Program();
-            int expected = 3;
+            expected = 3;
             int actual = test_object.subtract(6, 3);
             Assert.AreEqual<int>(expected, actual, "Did not get the right value from subtract method");
         }
