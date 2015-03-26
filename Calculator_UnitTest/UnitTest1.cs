@@ -29,7 +29,7 @@ namespace Calculator_UnitTest
             var test_object = new Program();
             int expected = 15;
             int actual = test_object.multiply(5, 3);
-            Assert.AreEqual<int>(expected, actual, "Did not get the right value from multiply method");
+            Assert.AreEqual<int>(expected, actual, "Did not get the right value from multiply method :)");
         }
         [TestMethod]
         public void divide_test()
