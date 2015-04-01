@@ -37,7 +37,7 @@ namespace Calculator_UnitTest
             var test_object = new Program();
             int expected = 3;
             int actual = test_object.divide(9, 3);
-            Assert.AreEqual<int>(expected, actual, "Did not get the right value from divide method");
+            Assert.AreEqual<int>(expected, actual, "Did not get the right value from divide method ");
         }
     }
 }
