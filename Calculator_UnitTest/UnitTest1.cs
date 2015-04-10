@@ -12,7 +12,7 @@ namespace Calculator_UnitTest
         {
             var test_object = new Program();
             int expected = 5;
-            int actual = test_object.add(2, 4);
+            int actual = test_object.add(2, 3);
             Assert.AreEqual<int>(expected, actual, "Did not get the right value from add method");
         }
         [TestMethod]
@@ -20,7 +20,7 @@ namespace Calculator_UnitTest
         {
             var test_object = new Program();
             int expected = 3;
-            int actual = test_object.subtract(6, 2);
+            int actual = test_object.subtract(6, 3);
             Assert.AreEqual<int>(expected, actual, "Did not get the right value from subtract method");
         }
         [TestMethod]
