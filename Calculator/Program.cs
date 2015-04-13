@@ -11,10 +11,7 @@ namespace Calculator
     /// </summary>
     public class Program // class program
     {
-        /// <summary>
-        /// Main function
-        /// </summary>
-        /// <param name="args"></param>
+
         static void Main(string[] args)
         {
 
