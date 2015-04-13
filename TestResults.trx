@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e6471a43-6c4c-4251-a2cb-a8db3b0a8b4b" name="SYSTEM@LPT0344 2015-04-13 13:26:46" runUser="NT AUTHORITY\SYSTEM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="bbf93e07-3325-4436-a7f3-ac0cf6bba778">
+    <Deployment userDeploymentRoot="E:\Jenkins\jobs\Demo\workspace" useDefaultDeploymentRoot="false" runDeploymentRoot="SYSTEM_LPT0344 2015-04-13 13_26_46" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2015-04-13T13:26:46.0514339+02:00" queuing="2015-04-13T13:26:46.4994248+02:00" start="2015-04-13T13:26:46.5874301+02:00" finish="2015-04-13T13:26:46.9214490+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="add_test" storage="e:\jenkins\jobs\demo\workspace\calculator_unittest\bin\debug\calculator_unittest.dll" id="45a591db-178d-5edf-e433-9e25b9020145">
+      <Execution id="586c1ad9-40bd-42ca-8198-fc11a2c4ce03" />
+      <TestMethod codeBase="E:/Jenkins/jobs/Demo/workspace/Calculator_UnitTest/bin/Debug/Calculator_UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Calculator_UnitTest.UnitTest1, Calculator_UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="add_test" />
+    </UnitTest>
+    <UnitTest name="multiply_test" storage="e:\jenkins\jobs\demo\workspace\calculator_unittest\bin\debug\calculator_unittest.dll" id="117f3bdc-7215-db2f-527f-2afde77388c2">
+      <Execution id="9bc2b942-455e-487e-8b48-772e10f2b6a6" />
+      <TestMethod codeBase="E:/Jenkins/jobs/Demo/workspace/Calculator_UnitTest/bin/Debug/Calculator_UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Calculator_UnitTest.UnitTest1, Calculator_UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="multiply_test" />
+    </UnitTest>
+    <UnitTest name="divide_test" storage="e:\jenkins\jobs\demo\workspace\calculator_unittest\bin\debug\calculator_unittest.dll" id="392fdef4-9c47-6373-1a82-5e96c6dbe254">
+      <Execution id="e3e0b16c-3d2a-4068-a1b8-d50f1fecaf25" />
+      <TestMethod codeBase="E:/Jenkins/jobs/Demo/workspace/Calculator_UnitTest/bin/Debug/Calculator_UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Calculator_UnitTest.UnitTest1, Calculator_UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="divide_test" />
+    </UnitTest>
+    <UnitTest name="subtract_test" storage="e:\jenkins\jobs\demo\workspace\calculator_unittest\bin\debug\calculator_unittest.dll" id="76f45db3-881e-01cb-7a41-552d938b2628">
+      <Execution id="8a143446-d6ae-4c86-a13f-75494cee3bfa" />
+      <TestMethod codeBase="E:/Jenkins/jobs/Demo/workspace/Calculator_UnitTest/bin/Debug/Calculator_UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Calculator_UnitTest.UnitTest1, Calculator_UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="subtract_test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="45a591db-178d-5edf-e433-9e25b9020145" executionId="586c1ad9-40bd-42ca-8198-fc11a2c4ce03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="392fdef4-9c47-6373-1a82-5e96c6dbe254" executionId="e3e0b16c-3d2a-4068-a1b8-d50f1fecaf25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="117f3bdc-7215-db2f-527f-2afde77388c2" executionId="9bc2b942-455e-487e-8b48-772e10f2b6a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76f45db3-881e-01cb-7a41-552d938b2628" executionId="8a143446-d6ae-4c86-a13f-75494cee3bfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="586c1ad9-40bd-42ca-8198-fc11a2c4ce03" testId="45a591db-178d-5edf-e433-9e25b9020145" testName="add_test" computerName="LPT0344" duration="00:00:00.0162173" startTime="2015-04-13T13:26:46.6194311+02:00" endTime="2015-04-13T13:26:46.8594495+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="586c1ad9-40bd-42ca-8198-fc11a2c4ce03">
+    </UnitTestResult>
+    <UnitTestResult executionId="e3e0b16c-3d2a-4068-a1b8-d50f1fecaf25" testId="392fdef4-9c47-6373-1a82-5e96c6dbe254" testName="divide_test" computerName="LPT0344" duration="00:00:00.0003480" startTime="2015-04-13T13:26:46.8614472+02:00" endTime="2015-04-13T13:26:46.8644481+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3e0b16c-3d2a-4068-a1b8-d50f1fecaf25">
+    </UnitTestResult>
+    <UnitTestResult executionId="9bc2b942-455e-487e-8b48-772e10f2b6a6" testId="117f3bdc-7215-db2f-527f-2afde77388c2" testName="multiply_test" computerName="LPT0344" duration="00:00:00.0003400" startTime="2015-04-13T13:26:46.8664477+02:00" endTime="2015-04-13T13:26:46.8704463+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bc2b942-455e-487e-8b48-772e10f2b6a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a143446-d6ae-4c86-a13f-75494cee3bfa" testId="76f45db3-881e-01cb-7a41-552d938b2628" testName="subtract_test" computerName="LPT0344" duration="00:00:00.0002351" startTime="2015-04-13T13:26:46.8724477+02:00" endTime="2015-04-13T13:26:46.8754495+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a143446-d6ae-4c86-a13f-75494cee3bfa">
+    </UnitTestResult>
+  </Results>
+</TestRun>
