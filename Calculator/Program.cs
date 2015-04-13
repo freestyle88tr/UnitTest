@@ -14,7 +14,7 @@ namespace Calculator
 
         static void Main(string[] args)
         {
-
+           
         }
 
         /// <summary>
@@ -39,12 +39,7 @@ namespace Calculator
             return (a - b);
         }
 
-        /// <summary>
-        /// Multiply function
-        /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+
         public int multiply(int a, int b)
         {
             return (a * b);
