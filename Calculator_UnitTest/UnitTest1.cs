@@ -13,7 +13,7 @@ namespace Calculator_UnitTest
         {
             var test_object = new Program();
             int expected = 5;
-            int actual = test_object.add(2, 3);
+            int actual = test_object.Add(2, 3);
             Assert.AreEqual<int>(expected, actual, "Did not get the right value from add method");
         }
         [TestMethod]
@@ -21,7 +21,7 @@ namespace Calculator_UnitTest
         {
             var test_object = new Program();
             int expected = 3;
-            int actual = test_object.subtract(6, 3);
+            int actual = test_object.Subtract(6, 3);
             Assert.AreEqual<int>(expected, actual, "Did not get the right value from subtract method");
         }
         [TestMethod]
@@ -29,7 +29,7 @@ namespace Calculator_UnitTest
         {
             var test_object = new Program();
             int expected = 15;
-            int actual = test_object.multiply(5, 3);
+            int actual = test_object.Multiply(5, 3);
             Assert.AreEqual<int>(expected, actual, "Did not get the right value from multiply method :)");
         }
         [TestMethod]
@@ -37,7 +37,7 @@ namespace Calculator_UnitTest
         {
             var test_object = new Program();
             int expected = 3;
-            int actual = test_object.divide(9, 3);
+            int actual = test_object.Divide(9, 3);
             Assert.AreEqual<int>(expected, actual, "Did not get the right value from divide method ");
         }
     }
