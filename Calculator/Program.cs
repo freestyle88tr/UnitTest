@@ -39,12 +39,7 @@ namespace Calculator
             return (a - b);
         }
 
-        /// <summary>
-        /// bla
-        /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+
         public int multiply(int a, int b)
         {
             return (a * b);
